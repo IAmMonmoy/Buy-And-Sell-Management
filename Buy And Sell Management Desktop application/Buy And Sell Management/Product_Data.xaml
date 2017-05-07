@@ -1,0 +1,44 @@
+﻿<Window x:Class="Buy_And_Sell_Management.Product_Data"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Product_Data" Height="400" Width="441" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content="Product Name" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" FontSize="16"></Label>
+        <Label Content="Buy Price" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" FontSize="16"></Label>
+        <Label Content="Sell Price" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" FontSize="16"></Label>
+        <Label Content="Quantity" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" FontSize="16"></Label>
+    
+        <TextBox Name="name" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2"></TextBox>
+        <TextBox Name="Buy" Grid.Row="2" Grid.Column="4" Grid.ColumnSpan="2" ></TextBox>
+        <TextBox Name="Sell" Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="2"></TextBox>
+        <TextBox Name="Quantity" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2"></TextBox>
+        <Button Name="Picture_Button" Content="Picture" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="1" Click="Picture_Butoon_Click"></Button>
+        <Button Name="Close_Button" Content="Close" Grid.Row="10" Grid.Column="2" Grid.ColumnSpan="3" FontSize="16" Click="Close_Button_Click"></Button>
+        <Button Name="Enter_Button" Content="Enter" Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="3" FontSize="16" Click="Enter_Button_Click"></Button>
+        <Image Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="5" Grid.RowSpan="4" Name="image1" Stretch="Fill" />
+
+        <Border Margin="1" Grid.Row="1" Grid.RowSpan="4" Grid.Column="1" Grid.ColumnSpan="5" BorderBrush="Blue" BorderThickness="2"></Border>
+    </Grid>
+</Window>

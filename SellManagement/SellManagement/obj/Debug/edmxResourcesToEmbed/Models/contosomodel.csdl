@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BuyAndSellModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Log_In">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Passward" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Stock">
+    <Key>
+      <PropertyRef Name="ProductName" />
+    </Key>
+    <Property Name="ProductName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Stock1" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="TransactionId" />
+      <PropertyRef Name="ProductName" />
+      <PropertyRef Name="BuyPrice" />
+      <PropertyRef Name="SellPrice" />
+      <PropertyRef Name="Quantity" />
+      <PropertyRef Name="Total" />
+      <PropertyRef Name="Revenue" />
+      <PropertyRef Name="Date" />
+    </Key>
+    <Property Name="TransactionId" Type="Int32" Nullable="false" />
+    <Property Name="ProductName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BuyPrice" Type="Int32" Nullable="false" />
+    <Property Name="SellPrice" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Total" Type="Int32" Nullable="false" />
+    <Property Name="Revenue" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="BuyAndSellEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Log_Ins" EntityType="Self.Log_In" />
+    <EntitySet Name="Stocks" EntityType="Self.Stock" />
+    <EntitySet Name="Transactions" EntityType="Self.Transaction" />
+    <FunctionImport Name="sp_insert_stock">
+      <Parameter Name="ProductName" Mode="In" Type="String" />
+      <Parameter Name="Quantity" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_insert_transaction">
+      <Parameter Name="TransactionId" Mode="In" Type="Int32" />
+      <Parameter Name="ProductName" Mode="In" Type="String" />
+      <Parameter Name="BuyPrice" Mode="In" Type="Int32" />
+      <Parameter Name="SellPrice" Mode="In" Type="Int32" />
+      <Parameter Name="Quantity" Mode="In" Type="Int32" />
+      <Parameter Name="Total" Mode="In" Type="Int32" />
+      <Parameter Name="Revenue" Mode="In" Type="Int32" />
+      <Parameter Name="Date" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

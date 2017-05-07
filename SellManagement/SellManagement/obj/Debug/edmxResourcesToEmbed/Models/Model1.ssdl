@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BuyAndSellModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'BuyAndSell.dbo.Transactions' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Transactions">
+    <Key>
+      <PropertyRef Name="TransactionId" />
+      <PropertyRef Name="ProductName" />
+      <PropertyRef Name="BuyPrice" />
+      <PropertyRef Name="SellPrice" />
+      <PropertyRef Name="Quantity" />
+      <PropertyRef Name="Total" />
+      <PropertyRef Name="Revenue" />
+      <PropertyRef Name="Date" />
+    </Key>
+    <Property Name="TransactionId" Type="int" Nullable="false" />
+    <Property Name="ProductName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BuyPrice" Type="int" Nullable="false" />
+    <Property Name="SellPrice" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="Total" Type="int" Nullable="false" />
+    <Property Name="Revenue" Type="int" Nullable="false" />
+    <Property Name="Date" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="BuyAndSellModelStoreContainer">
+    <EntitySet Name="Transactions" EntityType="Self.Transactions" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Transactions].[TransactionId] AS [TransactionId], 
+    [Transactions].[ProductName] AS [ProductName], 
+    [Transactions].[BuyPrice] AS [BuyPrice], 
+    [Transactions].[SellPrice] AS [SellPrice], 
+    [Transactions].[Quantity] AS [Quantity], 
+    [Transactions].[Total] AS [Total], 
+    [Transactions].[Revenue] AS [Revenue], 
+    [Transactions].[Date] AS [Date]
+    FROM [dbo].[Transactions] AS [Transactions]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,58 @@
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\bin\Debug\Buy And Sell Management.exe
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\bin\Debug\Buy And Sell Management.pdb
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\MainWindow.baml
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\App.g.cs
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy And Sell Management_MarkupCompile.cache
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy And Sell Management.g.resources
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy_And_Sell_Management.Properties.Resources.resources
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy And Sell Management.csproj.GenerateResource.Cache
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy And Sell Management.exe
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy And Sell Management.pdb
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\bin\Debug\BuyAndSell.mdf
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\bin\Debug\BuyAndSell_log.ldf
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\bin\Debug\Buy And Sell Management.exe.config
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy And Sell Management_Content.g.cs
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Login_Form.baml
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Login_Form.g.cs
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Product_Data.baml
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Product_Data.g.cs
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\EditItem.baml
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\EditItem.g.cs
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Update.baml
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Update.g.cs
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Add_To_Stock.baml
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Add_To_Stock.g.cs
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\UpdateStock.baml
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\UpdateStock.g.cs
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\ShowStock.baml
+C:\Users\Rajob Raihan Monmoy\Desktop\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\ShowStock.g.cs
+I:\wpf\Buy And Sell Management\Buy And Sell Management\bin\Debug\Buy And Sell Management.exe.config
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy And Sell Management.exe
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy And Sell Management.pdb
+I:\wpf\Buy And Sell Management\Buy And Sell Management\bin\Debug\BuyAndSell.mdf
+I:\wpf\Buy And Sell Management\Buy And Sell Management\bin\Debug\BuyAndSell_log.ldf
+I:\wpf\Buy And Sell Management\Buy And Sell Management\bin\Debug\Buy And Sell Management.exe
+I:\wpf\Buy And Sell Management\Buy And Sell Management\bin\Debug\Buy And Sell Management.pdb
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Add_To_Stock.baml
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\EditItem.baml
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Login_Form.baml
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\MainWindow.baml
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Product_Data.baml
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\ShowStock.baml
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\UpdateStock.baml
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Update.baml
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Add_To_Stock.g.cs
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\EditItem.g.cs
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Login_Form.g.cs
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\MainWindow.g.cs
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Product_Data.g.cs
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\ShowStock.g.cs
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\UpdateStock.g.cs
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Update.g.cs
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\App.g.cs
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy And Sell Management_Content.g.cs
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy And Sell Management_MarkupCompile.cache
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy And Sell Management.g.resources
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy_And_Sell_Management.Properties.Resources.resources
+I:\wpf\Buy And Sell Management\Buy And Sell Management\obj\x86\Debug\Buy And Sell Management.csproj.GenerateResource.Cache

@@ -1,0 +1,71 @@
+﻿html,body,.cover{
+    height:100%;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-top:50px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*set the cover picture*/
+.cover{
+    background:url("/Content/images/cover1.jpg") top left no-repeat;
+    background-size:cover;
+    display:table;
+    width:100%;
+    position:relative;
+}
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin:auto;
+}
+
+#cover-heading{
+    font-size:50px;
+    font-family:sans-serif;
+    color:white;
+    width:350px;
+    margin:20px;
+    position:absolute;
+    top:200px;
+    left:0;
+}
+.cover-description{
+    color:white;
+    width: 350px;
+    margin:20px;
+    position:absolute;
+    top: 200px;
+    right: 0;
+}
+.cover a{
+    position:absolute;
+    top:300px;
+    right: 0;
+    margin:20px;
+}
+
+.ft{
+    background:#333230;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#TotalButton{
+    margin:20px;
+}

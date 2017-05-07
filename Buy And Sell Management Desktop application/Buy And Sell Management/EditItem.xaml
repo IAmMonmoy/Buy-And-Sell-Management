@@ -1,0 +1,35 @@
+﻿<Window x:Class="Buy_And_Sell_Management.EditItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="EditItem" Height="350" Width="500" Closing="Form_Closing" Loaded="Window_Loaded_1" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <ListBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="8" Grid.RowSpan="7" Name="ShowData" FontSize="25"/>
+        
+        <Button Margin="3" Content="Edit" Name="EditButton" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" Click="EditButton_Click"></Button>
+        <Button Margin="3" Content="Delete" Name="DeleteButton" Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="2" Click="DeleteButton_Click_1"></Button>
+        <Button Margin="3" Content="Delete All" Name="DeleteAllButton" Grid.Row="8" Grid.Column="4" Grid.ColumnSpan="2"></Button>
+        <Button Margin="3" Content="Close" Name="CloseButton" Grid.Row="8" Grid.Column="6" Grid.ColumnSpan="2" Click="CloseButton_Click"></Button>
+    </Grid>
+</Window>

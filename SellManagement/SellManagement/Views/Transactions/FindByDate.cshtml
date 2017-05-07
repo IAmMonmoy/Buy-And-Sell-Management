@@ -1,0 +1,101 @@
+﻿@model IEnumerable<SellManagement.Models.Transaction>
+@{
+    ViewBag.Title = "FindByDate";
+}
+
+<h2>FindByDate</h2>
+<h2>@ViewBag.result</h2>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+ 
+ @using (Html.BeginForm())
+ {
+    @Html.AntiForgeryToken()
+        if (IsPost)
+        {
+            @Html.ActionLink("Find Revenue", "FindRevenue", "Transactions", null, new { @class = "btn btn-primary col-md-2 col-md-offset-3 sold1" })
+            @Html.ActionLink("Find Total", "FindTotal", "Transactions", null, new { @class = "btn btn-primary col-md-2 col-md-offset-1 revenue1" })
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TransactionId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ProductName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.BuyPrice)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.SellPrice)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Quantity)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Total)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Revenue)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Date)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TransactionId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BuyPrice)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SellPrice)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantity)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Total)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Revenue)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Date)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        }
+        else
+        {
+
+            <div class="form-group">
+                @Html.Label("Enter Date", new { @class = "col-md-offset-2 control-label col-md-2" })
+                @Html.TextBox("date", null, new {
+               @class = "form-control col-md-6",
+               type = "date",
+               @Value = System.DateTime.Now
+           })
+            </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-5 col-md-8">
+                            <input id="TotalButon" type="submit" value="Submit" class="btn btn-primary" />
+                        </div>
+                    </div>
+        }
+ }
